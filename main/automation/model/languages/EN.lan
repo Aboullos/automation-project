@@ -1,0 +1,16 @@
+REPORT_HEADER=Testing // Daily report
+DAILY_REPORT=Daily report
+RESULT=Result
+RESULTS=results
+TOTAL=total
+ERRORS=errors
+VARIABLE=Variable
+SUCCESS=Success
+FAILURE=Failure
+CANT_LOAD_IMAGE=Cannot load image
+PAGE_FAILURES=Page Failures
+TESTS=Tests
+BROWSER=Browser
+TEST_REPORT=Test report
+REPORT=Report
+FROM=from

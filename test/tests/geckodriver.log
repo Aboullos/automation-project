@@ -1,0 +1,197 @@
+1590674187158	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilel76ZTE"
+1590674187485	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590674187502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590674187502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590674187502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590674187502	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590674188701	Marionette	INFO	Listening on port 41929
+1590674188764	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590674189578	Marionette	INFO	Stopped listening on port 41929
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1590674194619	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileci2XW9"
+1590674194840	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590674194855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590674194855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590674194855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590674194855	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590674196052	Marionette	INFO	Listening on port 37773
+1590674196141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590674196628	Marionette	INFO	Stopped listening on port 37773
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1590675106095	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePrM9H3"
+1590675106321	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590675106336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590675106336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590675106336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590675106336	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590675107481	Marionette	INFO	Listening on port 41765
+1590675107504	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590675108264	Marionette	INFO	Stopped listening on port 41765
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1590675111982	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenIW64B"
+1590675112207	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590675112222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590675112222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590675112222	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590675112223	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590675113527	Marionette	INFO	Listening on port 44695
+1590675113587	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590675114031	Marionette	INFO	Stopped listening on port 44695
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1590678283204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAgd7p6"
+1590678283425	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590678283440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590678283440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590678283440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590678283440	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590678284622	Marionette	INFO	Listening on port 45279
+1590678284730	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590678285450	Marionette	INFO	Stopped listening on port 45279
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1590678290154	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuBc04n"
+1590678290377	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1590678290392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1590678290392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1590678290392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1590678290392	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1590678291545	Marionette	INFO	Listening on port 42191
+1590678291566	Marionette	WARN	TLS certificate errors will be ignored for this session
+1590678292030	Marionette	INFO	Stopped listening on port 42191
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+1591191832896	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQ6SGZy"
+1591191833148	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591191833163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591191833163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591191833163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591191833163	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591191834479	Marionette	INFO	Listening on port 37025
+1591191834539	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+1591191835900	Marionette	INFO	Stopped listening on port 37025
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1591191839648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQEg090"
+1591191839869	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591191839885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591191839885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591191839885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591191839885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591191841107	Marionette	INFO	Listening on port 36527
+1591191841187	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591191841652	Marionette	INFO	Stopped listening on port 36527
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+1591200840677	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJAQE3n"
+1591200840970	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591200840989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591200840989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591200840989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591200840989	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: chrome://browser/content/places/browserPlacesViews.js, line 136: Error: No DOM node set for aPlacesNode.
+node.type: 0. node.parent: [xpconnect wrapped nsINavHistoryResultNode]
+1591200842709	Marionette	INFO	Listening on port 45375
+1591200842784	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591200843558	Marionette	INFO	Stopped listening on port 45375
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+1591200849275	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejorOv6"
+1591200849544	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591200849562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591200849562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591200849562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591200849562	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591200851134	Marionette	INFO	Listening on port 32893
+1591200851186	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591200851765	Marionette	INFO	Stopped listening on port 32893
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+1591201363803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3bilF8"
+1591201364058	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591201364074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591201364074	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591201364075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591201364075	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591201365545	Marionette	INFO	Listening on port 34997
+1591201365609	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591201366410	Marionette	INFO	Stopped listening on port 34997
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1591201371126	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9vDqWO"
+1591201371402	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591201371420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591201371420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591201371420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591201371420	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591201372872	Marionette	INFO	Listening on port 44539
+1591201372937	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591201373577	Marionette	INFO	Stopped listening on port 44539
+JavaScript error: https://start.fedoraproject.org/static/js/bootstrap.min.js, line 6: Error: Bootstrap's JavaScript requires jQuery
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+1591201714899	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileOHZBdn"
+1591201715164	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591201715180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591201715180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591201715180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591201715180	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591201716589	Marionette	INFO	Listening on port 41439
+1591201716614	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591201717501	Marionette	INFO	Stopped listening on port 41439
+JavaScript error: https://start.fedoraproject.org/, line 292: TypeError: $(...).uls is not a function
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+
+1591201722227	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "--start-maximized" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWuXr4D"
+1591201722470	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1591201722486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1591201722486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1591201722486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1591201722486	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1591201723894	Marionette	INFO	Listening on port 44147
+1591201723941	Marionette	WARN	TLS certificate errors will be ignored for this session
+1591201724512	Marionette	INFO	Stopped listening on port 44147
+JavaScript error: https://start.fedoraproject.org/, line 291: ReferenceError: $ is not defined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A0005,name=PHttpChannel::Msg_Cancel) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x5A002D,name=PHttpChannel::Msg_SetPriority) Closed channel: cannot send/recv
+

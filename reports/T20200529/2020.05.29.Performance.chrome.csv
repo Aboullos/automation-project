@@ -1,0 +1,9 @@
+performance_url;download_throughput;upload_throughput;latency;repeat;browser;result;time;exception
+/auth/realms/master/account/#/;450;15;150;1;chrome;SUCCESS;79;
+/auth/realms/master/account/#/;750;25;100;1;chrome;NOT EXECUTED;0.0;None
+/auth/realms/master/account/#/;4000;300;20;1;chrome;NOT EXECUTED;0.0;None
+/auth/realms/master/account/#/;30000;1500;2;1;chrome;NOT EXECUTED;0.0;None
+/auth/realms/master/account/#/app/personal-info;450;150;150;1;chrome;SUCCESS;77;
+/auth/realms/master/account/#/app/personal-info;750;250;100;1;chrome;NOT EXECUTED;0.0;None
+/auth/realms/master/account/#/app/personal-info;4000;3000;20;1;chrome;NOT EXECUTED;0.0;None
+/auth/realms/master/account/#/app/personal-info;30000;15000;2;1;chrome;NOT EXECUTED;0.0;None

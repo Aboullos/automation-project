@@ -1,0 +1,406 @@
+<html>
+	<head>
+		<meta charset="UTF-8"></meta>
+		<title>
+			Test report
+		</title>
+		<style type="text/css">
+			@import url(https://fonts.googleapis.com/css?family=Open+Sans);* { box-sizing: border-box; }html{  font-size: 62.5%;  text-size-adjust: 100%;}body {  font-family: 'Open Sans', sans-serif;  color: #4e4e4e;  height: 100%;  margin: 0;  font-size: 1.4rem;  line-height: 1.5;}/* STRUCTURE */.wrapper {  padding: 1.2rem 2.4rem;  max-width: 100%;  width: 100%;  margin: 0 auto;}header {  display: flex;  flex-flow: row wrap;  align-items: center;}header div {  flex: 1;  margin: 0 1.2rem 1.2rem 0;  padding: 0 1.2rem;}header div:last-child {  margin-right: 0;}@media screen and (max-width: 680px) {  header div {  flex-basis: 100%;      margin-right: 0;  }}@media screen and (min-width: 681px) {  header div {    flex-basis: 75%;  }  header div:last-child {    flex-basis: 20%;  }}.accordion .ac-button {cursor: pointer;}.boxes {  display: flex;  flex-flow: row wrap;  justify-content: center;}.boxes .box {  flex: 1;}.boxes .box:not(.result):not(.sum-up):not(.subtitle):not(h2):not(.case) {  margin: 0 1.2rem 1.2rem 0;  border-radius: 0.3rem;  padding: 1.2rem;}.boxes .box:last-child {  margin-right: 0;}.boxes .box .number {  line-height: 3.6rem;  font-weight: bold;}.boxes .box .number:not(.result) {  font-size: 4.5rem;  margin-bottom: 1.2rem;}.boxes .result {  font-size: 3rem;  margin-left: 1.2rem;  margin-bottom: 0.5rem;}.boxes .subtitle {  margin-left: 1.2rem;  margin-bottom: 0.5rem;}.boxes h2.box {  margin-left: 1.2rem;  margin-bottom: 0.5rem;}.boxes.thumbnails .box {  flex: none;  background-color: #F6F7F8;  border: 0.1rem solid #c2c2c2;  width: 9rem;  padding: 1.2rem 1.2rem 0.6rem;  text-align: center;}.boxes.thumbnails .box .number {  font-size: 2rem;  line-height: 2rem;}.exceptions .boxes.cases {  border-radius: 0.3rem;  background-color: #F6F7F8;  border: 0.1rem solid #c2c2c2;}.boxes.cases .box .number {  font-size: 2rem;  line-height: 2rem;}/* tablet */@media screen and (max-width: 980px) {  .boxes .box {    flex-basis: 40%;  }  .boxes .box:nth-child(2),  .boxes .box:nth-child(3) {    margin-right: 0;  }  .boxes.thumbnails .box:nth-child(2),  .boxes.thumbnails .box:nth-child(3) {    margin-right: 1.2rem;  }}/* mobile */@media screen and (max-width: 680px) {  .boxes .box {flex-basis: 100%;    margin-right: 0;  }  .boxes.thumbnails .box {    margin-right: 1.2rem;  }}.columns {  display: flex;  flex-flow: row wrap;  justify-content: center;}.columns-wrapper{  flex: 1;}.columns-wrapper .column{  background-color: #ffffff;  -webkit-box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);  box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);}.columns-wrapper.exceptions {   margin-right: 0;}.column {  flex: 1;  padding: 1.2rem;  margin-bottom: 1.2rem;  border: 0.1rem solid #c2c2c2;  border-radius: 0.3rem;}/* tablet */@media screen and (min-width: 681px) {  .columns-wrapper {    margin-right: 2;    margin-left: 2;    flex-basis: 40%;  }  .columns-wrapper.exceptions {    flex-basis: 100%;  }  .columns .column {    flex-basis: 40%;  }  .columns-wrapper.exceptions .column{    flex-basis: 100%;  }  .columns .columns-wrapper:nth-child(2):not(.exceptions),  .columns .columns-wrapper.exceptions{    margin-right: 0;  }}/* mobile */@media screen and (max-width: 680px) {  .columns-wrapper{    background-color: #ffffff;  -webkit-box-shadow: 0px 5px 14px 0px rgba(109,174,229,1);  -moz-box-shadow: 0px 5px 14px 0px rgba(109,174,229,1);  box-shadow: 0px 5px 14px 0px rgba(109,174,229,1);    flex-basis: 100%;    margin-right: 0;    order: 1;  }  .columns-wrapper:nth-child(2):not(.exceptions){    order: 2;  }  .columns-wrapper.exceptions{    order: 3;    width: 100%;  }  .columns .column {    flex-basis: 100%;  }}.column h2{  padding-bottom: 0.6rem;  margin: 0 0 1.2rem 0;}/*COLORS*/.bg-white{  background-color: #ffffff;  -webkit-box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);  box-shadow: 0px 5px 14px 0px rgba(255,255,255,0.5);}.bg-yellow{  background-color: #E1BC29;  -webkit-box-shadow: 0px 5px 14px 0px rgba(198,162,15,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(198,162,15,0.5);  box-shadow: 0px 5px 14px 0px rgba(198,162,15,0.5);}.bg-light-yellow{  background-color: #ffdb4c;  -webkit-box-shadow: 0px 5px 14px 0px rgba(255,241,186,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(255,241,186,0.5);  box-shadow: 0px 5px 14px 0px rgba(255,241,186,0.5);}.bg-green{  background-color: #3BB273;  webkit-box-shadow: 0px 5px 14px 0px rgba(34,145,86,0.75);  -moz-box-shadow: 0px 5px 14px 0px rgba(34,145,86,0.75);  box-shadow: 0px 5px 14px 0px rgba(34,145,86,0.5);}.bg-light-green{  background-color: #5dd897;  webkit-box-shadow: 0px 5px 14px 0px rgba(163,255,206,0.75);  -moz-box-shadow: 0px 5px 14px 0px rgba(163,255,206,0.75);  box-shadow: 0px 5px 14px 0px rgba(163,255,206,0.5);}.bg-red{  background-color: #c62525;  -webkit-box-shadow: 0px 5px 14px 0px rgba(255,84,84,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(255,84,84,0.5);  box-shadow: 0px 5px 14px 0px rgba(160,19,19,0.5);}.bg-light-red{  background-color: #e05555;  -webkit-box-shadow: 0px 5px 14px 0px rgba(252,118,118,0.5);  -moz-box-shadow: 0px 5px 14px 0px rgba(252,118,118,0.5);  box-shadow: 0px 5px 14px 0px rgba(252,118,118,0.5);}.clr-white{  color: #FFF;}.clr-red{  color: #CC444B;}/*TYPO*/h1{  font-size: 2.8rem;  margin: 0;}h2{  font-size: 2.2rem;}.boxes > h3{  margin: 0;  margin-top: 5;}/*FORMS*/.styled-select {  width: 30%;  height: 4rem;  overflow: hidden;  border: 1px solid #c2c2c2;  border-radius: 0.3rem;}.styled-select select {  background: transparent;  color: #4e4e4e;  width: 100%;  padding-left: 1rem;  font-size: 1.6rem;  line-height: 2rem;  border: 0;  border-radius: 0;  height: 4rem;}/*TABLES*/table{  border-collapse: collapse;  width: 100%;  background-color: #F8F8F9;}table thead tr th{  font-size: 1.6rem;  color: #507FA7;  text-align: center;}table tr td:first-of-type{  text-align: left;}div:not(.ac-content) > table tr{  border-bottom: 1px solid #c2c2c2;}thead:not(.ac-button) .boxes.cases .box:last-child {  margin-right: 40;}/* mobile */@media screen and (max-width: 680px) {  thead:not(.ac-button) .boxes.cases {    margin-right: 0;  }}img.responsive {  max-width: 100%;  height: auto;}.ac-button:hover svg{  fill: grey;}.boxes svg {  margin-top: 50%;}.exceptions .boxes.cases {  min-height: 40;  margin-bottom: 5;}.exceptions svg {  width: 40;  margin-top: 10;}.exceptions .box {  margin-top: 10;}.sum-up > .boxes > div > svg {  margin-right: 10;  margin-top: 10;}.sum-up > .boxes > h3 {  margin-right: 10;}.wrapper {  width: 98%;  margin-left: 1%;  margin-right: 1%;}.exceptions thead {  background: #ffffff;}.error {  color: #e05555;}.success {  color: #8aed80;}.wrapper > section > .columns-wrapper:not(.exceptions) {  margin-top: 20;}.sum-up {  color: white;}img.responsive {  cursor: pointer;}</style><style type='text/css' media='print'>body{font-family: Arial;}.columns{display: block;}.columns-wrapper{flex-basis: auto;}.column{flex-basis: auto;margin-bottom: 24px;padding: 12px;border: 1px solid #CCCCCC;}.boxes{display: block;padding: 12px 12px 0 12px;margin-bottom: 24px;}.boxes.thumbnails .box{display: inline-block;margin-right: 12px;margin-bottom: 12px;padding: 6px;border: 1px solid #e2e2e2;}.boxes svg{display: none;}tr:nth-child(even) {background: #CCC;}tr:nth-child(odd) {background: #FFF;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="title" align="center">
+				<h1>
+					Report Performance from 27/05/2020
+				</h1>
+			</div>
+		</header>
+		<div id="Performance" class="wrapper column accordion bg-light-green">
+			<section class="boxes ac-button">
+				<div class="box sum-up bg-green">
+					<div class="boxes">
+						<h2 class="box subtitle">
+							Performance
+						</h2>
+						<h3>
+							Browser: Chrome
+						</h3>
+					</div>
+					<div class="boxes">
+						<div class="box number result">
+2 (
+							<span class="success">
+								2
+							</span>
+/
+							<span class="error" style="color: white;">
+								0
+							</span>
+)
+						</div>
+						<div>
+							<svg fill="black" fill-opacity="0.4" height="15" width="30">
+								<path d='M0 0 L15 15 L30 0 Z'></path>
+							</svg>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="columns ac-content">
+				<div class="columns-wrapper">
+					<div class="column bg-white" name="test_id">
+						<h2>
+							Test id
+						</h2>
+						<table>
+							<thead>
+								<th>
+									Test id
+								</th>
+								<th>
+									Success
+								</th>
+								<th>
+									Failure
+								</th>
+							</thead>
+							<tbody name="table">
+								<tr class="selectable" name="0">
+									<th>
+										0
+									</th>
+									<th style="color: green;">
+										1
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+								<tr class="selectable" name="1">
+									<th>
+										1
+									</th>
+									<th style="color: green;">
+										1
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="column bg-white" name="download_throughput">
+						<h2>
+							Download throughput
+						</h2>
+						<table>
+							<thead>
+								<th>
+									Download throughput
+								</th>
+								<th>
+									Success
+								</th>
+								<th>
+									Failure
+								</th>
+							</thead>
+							<tbody name="table">
+								<tr class="selectable" name="4500">
+									<th>
+										4500
+									</th>
+									<th style="color: green;">
+										2
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="column bg-white" name="latency">
+						<h2>
+							Latency
+						</h2>
+						<table>
+							<thead>
+								<th>
+									Latency
+								</th>
+								<th>
+									Success
+								</th>
+								<th>
+									Failure
+								</th>
+							</thead>
+							<tbody name="table">
+								<tr class="selectable" name="150">
+									<th>
+										150
+									</th>
+									<th style="color: green;">
+										2
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="columns-wrapper">
+					<div class="column bg-white" name="performance_url">
+						<h2>
+							Performance url
+						</h2>
+						<table>
+							<thead>
+								<th>
+									Performance url
+								</th>
+								<th>
+									Success
+								</th>
+								<th>
+									Failure
+								</th>
+							</thead>
+							<tbody name="table">
+								<tr class="selectable" name="/auth/realms/master/account/#/">
+									<th>
+										/auth/realms/master/account/#/
+									</th>
+									<th style="color: green;">
+										1
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+								<tr class="selectable" name="/auth/realms/master/account/#/app/personal-info">
+									<th>
+										/auth/realms/master/account/#/app/personal-info
+									</th>
+									<th style="color: green;">
+										1
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="column bg-white" name="upload_throughput">
+						<h2>
+							Upload throughput
+						</h2>
+						<table>
+							<thead>
+								<th>
+									Upload throughput
+								</th>
+								<th>
+									Success
+								</th>
+								<th>
+									Failure
+								</th>
+							</thead>
+							<tbody name="table">
+								<tr class="selectable" name="1500">
+									<th>
+										1500
+									</th>
+									<th style="color: green;">
+										2
+									</th>
+									<th>
+										0
+									</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</section>
+		</div>
+		<script type="text/javascript">
+			var els = document.querySelectorAll('.accordion');
+for(var i = 0; i < els.length; i++) {
+	els[i].querySelector('.ac-button').addEventListener('click', function() {
+		var content = this.nextElementSibling;
+		if(content.getAttribute('style') == 'display: none;') {
+			content.removeAttribute('style');
+		} else {
+			content.setAttribute('style', 'display: none;');
+		}
+	});
+}
+
+var imgEls = document.querySelectorAll('img.responsive');
+for(var i = 0; i < imgEls.length; i++) {
+	imgEls[i].addEventListener('click', function() {
+		var content = this.parentElement.parentElement.parentElement;
+		if(content.getAttribute('style') == 'display: none;') {
+			content.removeAttribute('style');
+		} else {
+			content.setAttribute('style', 'display: none;');
+		}
+	});
+}
+		</script>
+		<script type="text/javascript">
+			Performance_matrix = [['test_id', 'performance_url', 'download_throughput', 'upload_throughput', 'latency', 'result'], ['0', '/auth/realms/master/account/#/', '4500', '1500', '150', 'SUCCESS'], ['1', '/auth/realms/master/account/#/app/personal-info', '4500', '1500', '150', 'SUCCESS']];
+
+var els = document.querySelectorAll('.selectable');
+for(var i = 0; i < els.length; i++) {
+	els[i].addEventListener('click', function() {
+		className = this.getAttribute('class');
+
+		if(className.indexOf('selected') > 0) {
+			this.setAttribute('class', className.replace(' selected', ''));
+			this.removeAttribute('style');
+		} else {
+			this.setAttribute('class', className + ' selected');
+			this.setAttribute('style', 'border-width: 5; border-color: #6b85af;');
+		}
+
+		var wrapper = this.parentElement.parentElement;
+
+		if(this.tagName != 'DIV') {
+			wrapper = wrapper.parentElement;
+		}
+
+		updateTables(wrapper.parentElement.parentElement.parentElement);
+	});
+}
+
+function updateTables(wrapper) {
+	var columns = [];
+	var itemsSelected = [];
+	var tables = wrapper.querySelectorAll('[name="table"]');
+	var matrix = window[wrapper.getAttribute('id') + '_matrix'];
+
+	for(var i = 0; i < matrix[0].length - 1; i++) {
+		var auxColumns = [];
+
+		for(var j = 1; j < matrix.length; j++) {
+			if(auxColumns.length == 0 || auxColumns.indexOf(matrix[j][i]) < 0) {
+				auxColumns.push(matrix[j][i]);
+			}
+		}
+
+		columns.push(auxColumns);
+	}
+
+	var auxTables = [];
+
+	for(var i = 0; i < matrix[0].length; i++) {
+		for(var j = 0; j < tables.length; j++) {
+			var tableContainer = tables[j].parentElement;
+
+			if(tables[j].tagName != 'DIV') {
+				tableContainer = tableContainer.parentElement;
+			}
+
+			if(tableContainer.getAttribute('name') == matrix[0][i]) {
+				auxTables.push(tables[j]);
+				break;
+			}
+		}
+	}
+
+	tables = auxTables;
+
+	for(var i = 0; i < tables.length; i++) {
+		var auxItemsSelected = [];
+		var elementsSelected = tables[i].querySelectorAll('* > .selected');
+
+		for(var j = 0; j < elementsSelected.length; j++) {
+			auxItemsSelected.push(elementsSelected[j].getAttribute('name'));
+		}
+
+		if(auxItemsSelected.length > 0) {
+			itemsSelected.push(auxItemsSelected);
+		} else itemsSelected.push(columns[i]);
+	}
+
+	for(var i = 0; i < tables.length; i++) {
+		var selected = tables[i].querySelectorAll('* > [name].selected').length > 0;
+		var elements = tables[i].querySelectorAll('* > [name]');
+
+		for(var j = 0; j < elements.length; j++) {
+			var selectedMatrix = [];
+			for(var k = 0; k < tables.length; k++) {
+				if(k == i) {
+					selectedMatrix.push([elements[j].getAttribute('name')]);
+				} else {
+					if(itemsSelected[k] != undefined && itemsSelected[k].length > 0) {
+						selectedMatrix.push(itemsSelected[k]);
+					} else {
+						selectedMatrix.push(columns[k]);
+					}
+				}
+			}
+
+			var result = countRows(selectedMatrix, columns, matrix);
+			var successSelector, failureSelector;
+
+			if(elements[j].tagName == 'DIV') {
+				successSelector = 'span:nth-of-type(1)';
+				failureSelector = 'span:nth-of-type(3)';
+			} else {
+				successSelector = 'th:nth-of-type(2)';
+				failureSelector = 'th:nth-of-type(3)';
+			}
+
+			if(!selected || elements[j].getAttribute('class').indexOf('selected') > 0) {
+				elements[j].querySelector(successSelector).textContent = result[0];
+				elements[j].querySelector(failureSelector).textContent = result[1];
+			} else {
+				elements[j].querySelector(successSelector).textContent = '0';
+				elements[j].querySelector(failureSelector).textContent = '0';
+			}
+		}
+	}
+}
+
+function countRows(selectedMatrix, columns, matrix) {
+	var success = 0;
+	var failure = 0;
+
+	for(var i = 1; i < matrix.length; i++) {
+		var found = true;
+		for(var j = 0; j < matrix[0].length; j++) {
+			var foundInSelectedMatrix = false;
+			if(selectedMatrix[j] != undefined && selectedMatrix[j].length > 0) {
+				for(var k = 0; k < selectedMatrix[j].length; k++) {
+					if(selectedMatrix[j][k] == matrix[i][j]) {
+						foundInSelectedMatrix = true;
+						break;
+					}
+				}
+			} else foundInSelectedMatrix = true;
+
+			if(!foundInSelectedMatrix) found = false;
+		}
+
+		if(found && matrix[i][matrix[0].indexOf('result')] == 'SUCCESS') {
+			success++;
+		} else if(found && matrix[i][matrix[0].indexOf('result')] == 'FAILURE') {
+			failure++;
+		}
+	}
+
+	return [success, failure];
+}
+		</script>
+	</body>
+</html>

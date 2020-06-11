@@ -1,0 +1,2 @@
+test_id;home_page_url;app_page_url;login_url;admin_home_url;browser;result;time;exception
+0;/auth/realms/master/account/#/;/auth/realms/master/account/#/app/personal-info;/auth/realms/master/protocol/openid-connect/auth;/auth;chrome;SUCCESS;267.288;

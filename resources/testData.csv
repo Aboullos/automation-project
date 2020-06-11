@@ -1,0 +1,9 @@
+name;download_throughput;upload_throughput;latency;requests;size;dom_content_load;load_time;finish_time;paint_time;repeat;performance_url
+Home Page;45;15;150;;;;;;;1;/auth/realms/master/account/#/
+Home Page;75;25;100;;;;;;;1;/auth/realms/master/account/#/
+Home Page;400;300;20;;;;;;;1;/auth/realms/master/account/#/
+Home Page;3000;1500;2;;;;;;;1;/auth/realms/master/account/#/
+App Page;45;150;150;;;;;;;1;/auth/realms/master/account/#/app/personal-info
+App Page;75;250;100;;;;;;;1;/auth/realms/master/account/#/app/personal-info
+App Page;400;3000;20;;;;;;;1;/auth/realms/master/account/#/app/personal-info
+App Page;3000;15000;2;;;;;;;1;/auth/realms/master/account/#/app/personal-info

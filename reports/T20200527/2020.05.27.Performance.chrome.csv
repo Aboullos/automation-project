@@ -1,0 +1,3 @@
+test_id;performance_url;download_throughput;upload_throughput;latency;browser;result;time;exception
+0;/auth/realms/master/account/#/;4500;1500;150;chrome;SUCCESS;790;
+1;/auth/realms/master/account/#/app/personal-info;4500;1500;150;chrome;SUCCESS;790;
